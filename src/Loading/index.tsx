@@ -4,7 +4,7 @@ import type { LoadingComponentsProps } from '@/types';
 
 import './index.scss';
 
-const Loading: React.FC<LoadingComponentsProps> = ({ className = '' }) => {
+const Loading: React.FC<LoadingComponentsProps> = () => {
 	return (
         <div className="loading-modal-two">
             <div className='loading-modal-loading'>

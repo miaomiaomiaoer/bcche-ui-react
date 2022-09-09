@@ -31,3 +31,6 @@ Build library via `father`,
 ```bash
 $ npm run build
 ```
+
+
+git push到main分支之后会自动部署

@@ -80,6 +80,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.34.0",
 		"@typescript-eslint/parser": "^5.33.1",
 		"@umijs/fabric": "^3.0.0",
+		"@umijs/plugin-sass": "^1.1.1",
 		"@umijs/runtime": "^3.5.32",
 		"@umijs/test": "^4.0.13",
 		"dumi": "^1.1.47",

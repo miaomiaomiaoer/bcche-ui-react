@@ -5127,6 +5127,14 @@
   resolved "https://registry.npmjs.org/@umijs/plugin-analytics/-/plugin-analytics-0.2.3.tgz"
   integrity sha512-6Fj+EOzd2vXe1YHjK1aqhHlITWBXcnhPd6pxAEjeGu3vAxDcfp1yM3PoRr//baBXk8CYF2krWDQGYy+OlRXM4A==
 
+"@umijs/plugin-sass@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.npmmirror.com/@umijs/plugin-sass/-/plugin-sass-1.1.1.tgz#1367f9ac2553f09fcf34ea755588c80200b9e038"
+  integrity sha512-z9Gyn/pasXLD/URjErBuMH41DPGd669kmeDUUDnYQMbazNAa2+hiWKsVbHhLM0In27GE/ElQZ+bk/9M9dgH88A==
+  dependencies:
+    sass "^1.26.2"
+    sass-loader "^8.0.2"
+
 "@umijs/preset-built-in@3.5.32":
   version "3.5.32"
   resolved "https://registry.npmjs.org/@umijs/preset-built-in/-/preset-built-in-3.5.32.tgz"
@@ -7983,7 +7991,7 @@ chokidar@3.5.1:
   optionalDependencies:
     fsevents "~2.3.1"
 
-chokidar@3.5.3, chokidar@^3.0.0, chokidar@^3.0.2, chokidar@^3.4.0, chokidar@^3.4.1, chokidar@^3.5.2:
+chokidar@3.5.3, "chokidar@>=3.0.0 <4.0.0", chokidar@^3.0.0, chokidar@^3.0.2, chokidar@^3.4.0, chokidar@^3.4.1, chokidar@^3.5.2:
   version "3.5.3"
   resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz"
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
@@ -14130,6 +14138,11 @@ immutable@^3.7.4, immutable@~3.7.4:
   version "3.7.6"
   resolved "https://registry.npmjs.org/immutable/-/immutable-3.7.6.tgz"
   integrity sha512-AizQPcaofEtO11RZhPPHBOJRdo/20MKQF9mBLnVkBoyHi1/zXK8fzVdnEpSV9gxqtnh6Qomfp3F0xT5qP/vThw==
+
+immutable@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.npmmirror.com/immutable/-/immutable-4.1.0.tgz#f795787f0db780183307b9eb2091fcac1f6fafef"
+  integrity sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -23310,7 +23323,7 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@^8.0.0:
+sass-loader@^8.0.0, sass-loader@^8.0.2:
   version "8.0.2"
   resolved "https://registry.npmjs.org/sass-loader/-/sass-loader-8.0.2.tgz"
   integrity sha512-7o4dbSK8/Ol2KflEmSco4jTjQoV988bM82P9CZdmo9hR3RLnvNc0ufMNdMrB0caq38JQ/FgF4/7RcbcfKzxoFQ==
@@ -23320,6 +23333,15 @@ sass-loader@^8.0.0:
     neo-async "^2.6.1"
     schema-utils "^2.6.1"
     semver "^6.3.0"
+
+sass@^1.26.2:
+  version "1.54.9"
+  resolved "https://registry.npmmirror.com/sass/-/sass-1.54.9.tgz#b05f14ed572869218d1a76961de60cd647221762"
+  integrity sha512-xb1hjASzEH+0L0WI9oFjqhRi51t/gagWnxLiwUNMltA0Ab6jIDkAacgKiGYKM9Jhy109osM7woEEai6SXeJo5Q==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
 
 sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
@@ -23961,7 +23983,7 @@ source-list-map@^2.0.0:
   resolved "https://registry.npmjs.org/source-list-map/-/source-list-map-2.0.1.tgz"
   integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
 
-source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==

@@ -21,4 +21,8 @@ export default defineConfig({
 		}),
 		require('autoprefixer'),
 	],
+	locales: [
+		['zh-CN', '中文'],
+		['en-US', 'English'],
+	]
 });

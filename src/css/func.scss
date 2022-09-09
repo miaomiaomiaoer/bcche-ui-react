@@ -1,0 +1,23 @@
+@function rem($n) {
+    @return calc(round( calc($n / 75) * 100rem) / 100)
+}
+
+@function color($n) {
+    @if $n == grayb{
+        @return #bbbbbb
+    } @else if $n == grayc{
+        @return #cccccc
+    } @else if $n == gray9{
+        @return #999999
+    } @else if $n == gray6{
+        @return #666666
+    } @else if $n == gray3{
+        @return #333333
+    } @else if $n == white{
+        @return #ffffff
+    } @else if $n == red{
+        @return #ff552e
+    } @else if $n == borderColor{
+        @return #f3f3f3
+    }
+}

@@ -29,4 +29,5 @@ export default {
 	autoprefixer: {
 		browsers: ['ie>9', 'Safari >= 6'],
 	},
+	sassInRollupMode: {}
 };

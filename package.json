@@ -1,6 +1,6 @@
 {
 	"name": "bcche-ui-react",
-	"version": "0.0.19",
+	"version": "0.0.20",
 	"description": "A component library that can achieve magic effects",
 	"keywords": [
 		"ui",
@@ -90,6 +90,7 @@
 		"father": "2.30.21",
 		"gh-pages": "^3.0.0",
 		"lint-staged": "^10.0.7",
+		"node-sass": "^7.0.3",
 		"postcss-import": "11",
 		"prettier": "^2.2.1",
 		"rollup-plugin-peer-deps-external": "^2.2.4",

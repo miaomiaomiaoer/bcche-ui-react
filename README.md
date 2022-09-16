@@ -8,29 +8,32 @@ Install dependencies,
 $ npm i
 ```
 
-Start the dev server,
+开发环境：
 
 ```bash
-$ npm start
+$ npm run dev
 ```
 
-Build documentation,
-
+生成文档
 ```bash
 $ npm run docs:build
 ```
 
-Run test,
+测试
 
 ```bash
 $ npm test
 ```
 
-Build library via `father`,
+修改版本号，生成npm包
 
 ```bash
 $ npm run build
 ```
+提交代码到远程main分支，更新npm包
 
+```bash
+$ npm publish 
+```
 
-git push到main分支之后会自动部署
+git push到main分支之后，页面会自动部署
